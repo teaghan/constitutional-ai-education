@@ -9,6 +9,11 @@ from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
 import torch
 import time
 
+def load_token(file_path):
+    with open(file_path) as f:
+        key = f.read().strip("\n")
+    return key
+hf_token = load_token(file_path='hf_token.txt')
 
 @dataclass
 class Config:
@@ -29,13 +34,14 @@ else:
     quantization_config = None
 
 model_name = "mistralai/Mistral-7B-Instruct-v0.1"
-tokenizer = AutoTokenizer.from_pretrained(model_name)
+tokenizer = AutoTokenizer.from_pretrained(model_name, token=hf_token)
 tokenizer.add_special_tokens({"sep_token": "", "cls_token": "", "mask_token": "", "pad_token": "[PAD]"})
 
 model = AutoModelForCausalLM.from_pretrained(
     model_name, 
     device_map="auto", 
-    quantization_config=quantization_config
+    quantization_config=quantization_config,
+    token=hf_token
 )
 
 # Load constitutional principles
