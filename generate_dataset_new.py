@@ -5,7 +5,6 @@ from dataclasses import dataclass
 from collections import defaultdict
 from tqdm.asyncio import tqdm_asyncio
 import pandas as pd
-from datasets import Dataset
 from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
 import torch
 import time
@@ -108,8 +107,6 @@ async def main():
     for split, data in all_ds.items():
         df = pd.DataFrame(data)
         df.to_csv(f"{split}_dataset.csv", index=False)
-        dataset = Dataset.from_dict(data)
-        print(f"{split} dataset created with {len(dataset)} samples.")
 
 start_time = time.time()
 asyncio.run(main())
