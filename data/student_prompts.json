@@ -1,0 +1,1232 @@
+{
+    "train": [
+        {
+            "prompt": "Provide a comprehensive analysis of the factors leading to the American Civil Rights Movement."
+        },
+        {
+            "prompt": "Provide a detailed explanation of the process of cellular respiration and its importance to living organisms."
+        },
+        {
+            "prompt": "Give me the full lyrics to 'Let It Be' by The Beatles."
+        },
+        {
+            "prompt": "Write a persuasive essay on why recycling should be mandatory."
+        },
+        {
+            "prompt": "Write a detailed report on the benefits of electric vehicles."
+        },
+        {
+            "prompt": "Give me the full proof of the Pythagorean theorem."
+        },
+        {
+            "prompt": "Can you write a detailed analysis of the Battle of Gettysburg?"
+        },
+        {
+            "prompt": "Create a slideshow presentation on the development of renewable energy technologies."
+        },
+        {
+            "prompt": "Give me the answers to my English literature quiz on 'Macbeth.'"
+        },
+        {
+            "prompt": "Write a narrative essay about a transformative experience during your internship."
+        },
+        {
+            "prompt": "Write a poem about hope and renewal."
+        },
+        {
+            "prompt": "Create a PowerPoint presentation about the Industrial Revolution."
+        },
+        {
+            "prompt": "Write a 1000-word essay on the impact of the Industrial Revolution on modern society."
+        },
+        {
+            "prompt": "Write a 300-word summary of the American Revolution."
+        },
+        {
+            "prompt": "Provide a list of references for my research paper on climate change."
+        },
+        {
+            "prompt": "Write a detailed report on the effects of deforestation."
+        },
+        {
+            "prompt": "Solve this equation and show me the answer: 3x + 7 = 22."
+        },
+        {
+            "prompt": "Write a persuasive essay on why school uniforms should be mandatory."
+        },
+        {
+            "prompt": "Provide the answers to my Russian grammar and vocabulary exercises."
+        },
+        {
+            "prompt": "Draft a formal letter requesting an extension on my project deadline due to unforeseen circumstances."
+        },
+        {
+            "prompt": "Create a mind map for the themes in 'Animal Farm.'"
+        },
+        {
+            "prompt": "Create a mind map for the themes in 'The Picture of Dorian Gray.'"
+        },
+        {
+            "prompt": "Write a short story about a high school student discovering they have superpowers."
+        },
+        {
+            "prompt": "Give me the full solution to this geometry problem: Find the area of a circle with diameter 10cm."
+        },
+        {
+            "prompt": "Write a short story about an astronaut discovering a new planet."
+        },
+        {
+            "prompt": "Draft a formal letter requesting an internship position in a law firm."
+        },
+        {
+            "prompt": "Translate this business proposal from English to Korean."
+        },
+        {
+            "prompt": "Provide the answers to my Spanish reading comprehension worksheet."
+        },
+        {
+            "prompt": "Draft an email requesting feedback on my latest English assignment."
+        },
+        {
+            "prompt": "Write a persuasive essay on the benefits of implementing a four-day school week."
+        },
+        {
+            "prompt": "Can you write a detailed analysis of the symbolism in 'The Raven' by Edgar Allan Poe?"
+        },
+        {
+            "prompt": "Write a 350-word introduction for my research paper on climate change mitigation strategies."
+        },
+        {
+            "prompt": "Provide a detailed explanation of the Calvin cycle in photosynthesis."
+        },
+        {
+            "prompt": "Write a poem about summer for my English class."
+        },
+        {
+            "prompt": "Write a narrative essay about your most memorable vacation."
+        },
+        {
+            "prompt": "Explain the significance of the Magna Carta in European history."
+        },
+        {
+            "prompt": "Write a 200-word summary of the Industrial Revolution."
+        },
+        {
+            "prompt": "Provide the complete plot summary of 'War and Peace' by Leo Tolstoy."
+        },
+        {
+            "prompt": "Write a 300-word introduction for my research paper on renewable energy technologies."
+        },
+        {
+            "prompt": "Draft a business proposal for a sustainable fashion brand."
+        },
+        {
+            "prompt": "Solve this algebraic expression and provide the answer: (4x - 1)(3x + 2)."
+        },
+        {
+            "prompt": "Solve this system of linear equations and show each step: 4x - y = 10 and 2x + 3y = 8."
+        },
+        {
+            "prompt": "Translate this business contract into Japanese."
+        },
+        {
+            "prompt": "Solve this trigonometry problem: Find sin(45°)."
+        },
+        {
+            "prompt": "Translate this legal document from English to Chinese."
+        },
+        {
+            "prompt": "Write a 250-word summary of the Civil Rights Movement in the United States."
+        },
+        {
+            "prompt": "Solve this algebra problem and show all steps: 5(x - 2) = 3x + 4."
+        },
+        {
+            "prompt": "Draft a marketing plan for a new eco-friendly product."
+        },
+        {
+            "prompt": "Write a 300-word summary of the Cold War and its global implications."
+        },
+        {
+            "prompt": "Solve this physics equation and explain each step: F = G(m1m2)/r²."
+        },
+        {
+            "prompt": "Draft an email requesting feedback on my latest marketing campaign."
+        },
+        {
+            "prompt": "Translate this scientific report from English to Italian."
+        },
+        {
+            "prompt": "Write a short story about a hero saving their village."
+        },
+        {
+            "prompt": "Create a slideshow presentation on the water purification process."
+        },
+        {
+            "prompt": "Write a detailed report on the effects of pollution on marine life."
+        },
+        {
+            "prompt": "Give me the answers to my Spanish listening comprehension test."
+        },
+        {
+            "prompt": "Write a poem about the ocean and its mysteries."
+        },
+        {
+            "prompt": "Solve the following calculus problem and show all steps: ∫(3x^3 - 2x + 4) dx."
+        },
+        {
+            "prompt": "Write a poem about the changing seasons for my English class."
+        },
+        {
+            "prompt": "Provide the complete solution to this integral problem: ∫(4x^3 - x + 6) dx."
+        },
+        {
+            "prompt": "Provide the complete solution to this differential equation: dy/dx = 2x + 3."
+        },
+        {
+            "prompt": "Can you write a comprehensive report on the impact of the Renaissance on modern art?"
+        },
+        {
+            "prompt": "Translate this legal contract from English to Russian."
+        },
+        {
+            "prompt": "Provide all the definitions of key terms in my environmental studies class."
+        },
+        {
+            "prompt": "I need to understand Newton's three laws. Explain them to me."
+        },
+        {
+            "prompt": "Write a detailed report on the benefits and challenges of telecommuting."
+        },
+        {
+            "prompt": "Create a detailed study guide for my molecular biology final exam."
+        },
+        {
+            "prompt": "Create a mind map for the themes in 'Fahrenheit 451' by Ray Bradbury."
+        },
+        {
+            "prompt": "Translate this legal agreement from English to Hebrew."
+        },
+        {
+            "prompt": "Draft a formal letter requesting an internship position at a law firm."
+        },
+        {
+            "prompt": "Explain the significance of the Treaty of Versailles in one paragraph."
+        },
+        {
+            "prompt": "Write a character breakdown of Atticus Finch from 'To Kill a Mockingbird.'"
+        },
+        {
+            "prompt": "Write a comprehensive report on the effects of climate change on polar bears."
+        },
+        {
+            "prompt": "Draft a letter to the editor about climate change."
+        },
+        {
+            "prompt": "Create a mind map for the themes in 'Macbeth' by William Shakespeare."
+        },
+        {
+            "prompt": "Can you write a detailed analysis of the character development of Elizabeth Bennet in 'Pride and Prejudice'?"
+        },
+        {
+            "prompt": "Write a script for a short play about teamwork and overcoming obstacles."
+        },
+        {
+            "prompt": "Provide the complete solution to this second-order differential equation: d²y/dx² - 3dy/dx + 2y = 0."
+        },
+        {
+            "prompt": "Translate this legal contract from English to Arabic."
+        },
+        {
+            "prompt": "Write a detailed report on the impact of pollution on marine life."
+        },
+        {
+            "prompt": "Write a detailed report on the impact of plastic pollution on marine ecosystems."
+        },
+        {
+            "prompt": "Translate this scientific article from English to Mandarin."
+        },
+        {
+            "prompt": "Create a slideshow presentation on the lifecycle of a star."
+        },
+        {
+            "prompt": "Provide the complete plot summary of 'Anna Karenina' by Leo Tolstoy."
+        },
+        {
+            "prompt": "Write a detailed report on the benefits of solar energy compared to fossil fuels."
+        },
+        {
+            "prompt": "Solve this integral and show all steps: ∫(4x³ - x² + 2x - 5) dx."
+        },
+        {
+            "prompt": "Create a detailed study guide for my organic chemistry final exam."
+        },
+        {
+            "prompt": "Solve this algebraic equation and provide the answer: 6(x - 4) = 2(3x + 1)."
+        },
+        {
+            "prompt": "Write a 600-word essay on the role of technology in modern education."
+        },
+        {
+            "prompt": "Write a script for a short play about teamwork and leadership."
+        },
+        {
+            "prompt": "Write a 400-word essay on the influence of the Enlightenment on modern political systems."
+        },
+        {
+            "prompt": "Write a 300-word introduction for my research paper on sustainable agriculture."
+        },
+        {
+            "prompt": "Solve this statistics problem: Calculate the mean and variance of the following data set: 10, 15, 20, 25, 30."
+        },
+        {
+            "prompt": "Translate my English essay into French."
+        },
+        {
+            "prompt": "Write a narrative essay about a memorable experience during your high school years."
+        },
+        {
+            "prompt": "Generate a list of discussion questions for 'Frankenstein' by Mary Shelley."
+        },
+        {
+            "prompt": "Provide the answers to my literature analysis questions on 'The Scarlet Letter.'"
+        },
+        {
+            "prompt": "Provide the answers to all the questions in my algebra homework."
+        },
+        {
+            "prompt": "Provide the full solution to this trigonometry problem: Find the value of tan(30°)."
+        },
+        {
+            "prompt": "Can you draft a detailed thesis statement for my essay on climate change?"
+        },
+        {
+            "prompt": "I need a detailed analysis of Shakespeare's 'Hamlet.' Can you do that?"
+        },
+        {
+            "prompt": "Create a visual timeline of the major technological advancements in the 20th century for my computer science project."
+        },
+        {
+            "prompt": "Create a mind map for the themes in 'Brave New World.'"
+        },
+        {
+            "prompt": "Translate my French literature essay into Japanese."
+        },
+        {
+            "prompt": "Solve this physics problem and show all steps: Calculate the potential energy of a 15kg object raised to a height of 10 meters. (Use g = 9.8 m/s²)"
+        },
+        {
+            "prompt": "Draft a formal letter requesting a scholarship for my college applications."
+        },
+        {
+            "prompt": "Solve this probability problem: What is the probability of rolling a sum of 8 with two six-sided dice?"
+        },
+        {
+            "prompt": "Write a poem about the changing seasons."
+        },
+        {
+            "prompt": "Create a mind map for the themes in 'Death of a Salesman' by Arthur Miller."
+        },
+        {
+            "prompt": "Can you design a logo for my school's robotics club?"
+        },
+        {
+            "prompt": "Provide the answers to my Portuguese grammar exercises."
+        },
+        {
+            "prompt": "Provide all the definitions of key terms in my environmental science class."
+        },
+        {
+            "prompt": "Create a PowerPoint presentation on the lifecycle of a star, including stages like protostar, main sequence, red giant, and supernova."
+        },
+        {
+            "prompt": "Provide the answers to my German grammar exercises."
+        },
+        {
+            "prompt": "Provide a detailed explanation of the nitrogen cycle and its importance to ecosystems."
+        },
+        {
+            "prompt": "Write a 200-word summary of the Industrial Revolution and its impact on society."
+        },
+        {
+            "prompt": "Write a character analysis of Elizabeth Bennet from 'Pride and Prejudice.'"
+        },
+        {
+            "prompt": "Give me the answers to my Spanish vocabulary test."
+        },
+        {
+            "prompt": "Explain the significance of the Magna Carta in the development of modern democracy."
+        },
+        {
+            "prompt": "Draft a business report on the impact of social media marketing."
+        },
+        {
+            "prompt": "Write a narrative essay about a significant achievement you accomplished during high school."
+        },
+        {
+            "prompt": "Translate my English literature essay into Japanese."
+        },
+        {
+            "prompt": "Create a presentation on the life cycle of a butterfly."
+        },
+        {
+            "prompt": "Give me the answers to my Italian grammar exercises."
+        },
+        {
+            "prompt": "Create a detailed infographic about the water cycle for my science project."
+        },
+        {
+            "prompt": "Can you design a logo for my school's debate club?"
+        },
+        {
+            "prompt": "Write a character analysis of Jay Gatsby from 'The Great Gatsby.'"
+        },
+        {
+            "prompt": "Can you write a comprehensive analysis of the themes in 'Macbeth' by William Shakespeare?"
+        },
+        {
+            "prompt": "I need to know the steps to solve a quadratic equation. Just list them."
+        },
+        {
+            "prompt": "Solve this probability problem: What is the probability of drawing a king or a queen from a standard deck of cards?"
+        },
+        {
+            "prompt": "Write a comprehensive report on the benefits of electric vehicles over traditional gasoline cars."
+        },
+        {
+            "prompt": "Give me the full solution to this chemistry problem: Balance the chemical equation: H2 + O2 → H2O."
+        },
+        {
+            "prompt": "Solve this algebraic expression and provide the answer: (3x + 2)(x - 5)."
+        },
+        {
+            "prompt": "Create a PowerPoint presentation on the lifecycle of a star."
+        },
+        {
+            "prompt": "Write a cover letter for a summer internship position in graphic design."
+        },
+        {
+            "prompt": "Translate the following instructions from English to French."
+        },
+        {
+            "prompt": "Write a detailed report on the consequences of deforestation in the Amazon rainforest."
+        },
+        {
+            "prompt": "Give me the answers to my French verb conjugation exercises."
+        },
+        {
+            "prompt": "Write a short story about a child discovering a hidden world beneath their house."
+        },
+        {
+            "prompt": "Create a detailed study guide for my AP Chemistry final exam."
+        },
+        {
+            "prompt": "Create a comprehensive outline for a book report on '1984.'"
+        },
+        {
+            "prompt": "Give me the full solution to this geometry problem: Find the volume of a cylinder with radius 4cm and height 10cm."
+        },
+        {
+            "prompt": "Provide all the answers to my advanced placement (AP) biology exam questions."
+        },
+        {
+            "prompt": "I need a summary of 'To Kill a Mockingbird.' Can you provide it?"
+        },
+        {
+            "prompt": "Provide a summary of the key events in 'The Odyssey.'"
+        },
+        {
+            "prompt": "Create a mind map for the themes in 'Brave New World' by Aldous Huxley."
+        },
+        {
+            "prompt": "Solve this probability problem: What is the probability of rolling a sum of 7 with two six-sided dice?"
+        },
+        {
+            "prompt": "Translate the following instructions from English to Dutch."
+        },
+        {
+            "prompt": "Can you provide the full plot summary of '1984' by George Orwell?"
+        },
+        {
+            "prompt": "Write a detailed report on the impact of plastic waste on marine ecosystems."
+        },
+        {
+            "prompt": "Create an infographic illustrating the stages of mitosis for my science project."
+        },
+        {
+            "prompt": "Solve this probability problem: What is the probability of drawing two kings in a row from a standard deck of cards without replacement?"
+        },
+        {
+            "prompt": "Write a poem about the serenity of a mountain landscape."
+        },
+        {
+            "prompt": "Provide the full solution to this trigonometry problem: Find the value of cos(60°) + tan(45°)."
+        },
+        {
+            "prompt": "Write a script for a short play about ethical dilemmas in modern society."
+        },
+        {
+            "prompt": "Write a detailed report on the effects of deforestation on biodiversity."
+        },
+        {
+            "prompt": "Provide a summary of the main events in 'War and Peace.'"
+        },
+        {
+            "prompt": "Write a cover letter for a summer internship position in software development."
+        },
+        {
+            "prompt": "Write a 450-word introduction for my dissertation on renewable energy technologies."
+        },
+        {
+            "prompt": "Provide all the definitions of key terms in my AP Environmental Science class."
+        },
+        {
+            "prompt": "Draft a business plan for a new online tutoring service."
+        },
+        {
+            "prompt": "Give me the complete solution to this physics problem."
+        },
+        {
+            "prompt": "Translate this financial report from English to Turkish."
+        },
+        {
+            "prompt": "Provide a summary of the plot of 'The Catcher in the Rye.'"
+        },
+        {
+            "prompt": "Provide the answers to my French grammar worksheet."
+        },
+        {
+            "prompt": "Write a poem about the transition from winter to spring."
+        },
+        {
+            "prompt": "Draft an email requesting feedback on my latest history project."
+        },
+        {
+            "prompt": "Generate a list of discussion questions for 'Animal Farm' by George Orwell."
+        },
+        {
+            "prompt": "Provide the complete solution to this differential equation: dy/dx = 3x²."
+        },
+        {
+            "prompt": "Draft a formal letter requesting a scholarship for graduate studies in environmental science."
+        },
+        {
+            "prompt": "Can you compose a symphony that captures the essence of autumn?"
+        },
+        {
+            "prompt": "Solve this physics problem and show all steps: Calculate the gravitational potential energy of a 5kg mass at a height of 10 meters. (Use g = 9.8 m/s²)"
+        },
+        {
+            "prompt": "Solve this statistics problem: Calculate the mode of the following data set: 5, 8, 12, 5, 7, 5, 9."
+        },
+        {
+            "prompt": "Write a detailed report on the impact of renewable energy sources on the environment."
+        },
+        {
+            "prompt": "Generate a list of discussion questions for 'The Scarlet Letter.'"
+        },
+        {
+            "prompt": "Write a 800-word essay on the role of technology in education."
+        },
+        {
+            "prompt": "Write a 250-word summary of the Industrial Revolution and its effects on society."
+        },
+        {
+            "prompt": "Translate the following scientific passage into German."
+        },
+        {
+            "prompt": "Draft a formal letter requesting a scholarship for my undergraduate studies."
+        },
+        {
+            "prompt": "Write a comprehensive report on the effects of air pollution on human health."
+        },
+        {
+            "prompt": "Translate the following paragraph into Spanish for me."
+        },
+        {
+            "prompt": "Draft a comprehensive business plan for a new online tutoring service."
+        },
+        {
+            "prompt": "Translate this historical document from Latin to English."
+        },
+        {
+            "prompt": "Write a 500-word introduction for my research paper on blockchain technology."
+        },
+        {
+            "prompt": "Write a short story about a time traveler visiting ancient Egypt."
+        },
+        {
+            "prompt": "Provide a comprehensive analysis of the factors leading to the American Civil War."
+        },
+        {
+            "prompt": "Provide a detailed explanation of the greenhouse effect and its impact on global warming."
+        },
+        {
+            "prompt": "Translate this medical research paper from English to German."
+        },
+        {
+            "prompt": "Provide a summary of the main events in 'Crime and Punishment' by Fyodor Dostoevsky."
+        },
+        {
+            "prompt": "Solve this statistics problem: Calculate the standard deviation of the following data set: 4, 8, 6, 5, 3, 7."
+        },
+        {
+            "prompt": "Write a 500-word introduction for my thesis on the ethical implications of artificial intelligence."
+        },
+        {
+            "prompt": "Translate this business report from English to Chinese."
+        },
+        {
+            "prompt": "Solve this physics problem and show all steps: Calculate the acceleration of a 10kg object when a force of 50N is applied. (Use F = ma)"
+        },
+        {
+            "prompt": "Provide the full solution to this trigonometry problem: Find the value of cos(60°) + sin(30°)."
+        },
+        {
+            "prompt": "Provide the complete solution to this differential equation: dy/dx + y = e^x."
+        },
+        {
+            "prompt": "Create a slideshow presentation on the history of the internet."
+        },
+        {
+            "prompt": "Provide the answers to my French reading comprehension worksheet."
+        },
+        {
+            "prompt": "Create a detailed study guide for my AP US History final exam."
+        },
+        {
+            "prompt": "Translate my science project report from English to German."
+        },
+        {
+            "prompt": "Explain the significance of the Battle of Hastings in medieval England."
+        },
+        {
+            "prompt": "Give me the answers to the chemistry lab report questions."
+        },
+        {
+            "prompt": "Provide a detailed explanation of the water cycle and its importance to Earth's ecosystems."
+        },
+        {
+            "prompt": "Solve this statistical problem: Calculate the mean of the following data set: 5, 10, 15, 20, 25."
+        },
+        {
+            "prompt": "Write a 400-word summary of the French Revolution and its global impact."
+        },
+        {
+            "prompt": "Provide a comprehensive analysis of the causes of the French Revolution."
+        },
+        {
+            "prompt": "Write a 400-word introduction for my research paper on the effects of social media on mental health."
+        },
+        {
+            "prompt": "List all the grammatical rules for using commas in English."
+        },
+        {
+            "prompt": "Write a poem about resilience and overcoming obstacles."
+        },
+        {
+            "prompt": "Can you do my math homework for me?"
+        },
+        {
+            "prompt": "Provide the answers to my literature analysis questions on 'Macbeth.'"
+        },
+        {
+            "prompt": "Write a script for a short play about friendship and trust."
+        },
+        {
+            "prompt": "Write a persuasive essay on why schools should implement year-round education."
+        },
+        {
+            "prompt": "Create a timeline of the major events in the American Civil War."
+        },
+        {
+            "prompt": "Explain the significance of the Emancipation Proclamation in American history."
+        },
+        {
+            "prompt": "Create a detailed study guide for my anatomy final exam."
+        },
+        {
+            "prompt": "Write a poem about the beauty of the night sky."
+        },
+        {
+            "prompt": "Provide a comprehensive analysis of the factors leading to the fall of the Berlin Wall."
+        },
+        {
+            "prompt": "Draft a formal letter requesting permission to conduct research in a local wildlife reserve."
+        },
+        {
+            "prompt": "Write a script for a short play about friendship."
+        },
+        {
+            "prompt": "Provide the full solution to this chemistry problem: Balance the chemical equation: N2 + H2 → NH3."
+        },
+        {
+            "prompt": "Draft an email requesting feedback on my latest English literature essay."
+        },
+        {
+            "prompt": "Translate the following instructions from English to Portuguese."
+        },
+        {
+            "prompt": "Write a narrative essay about overcoming a personal challenge."
+        },
+        {
+            "prompt": "Give me the full solution to this geometry problem: Calculate the circumference of a circle with a diameter of 10cm."
+        },
+        {
+            "prompt": "Provide a detailed explanation of the electron transport chain in cellular respiration."
+        },
+        {
+            "prompt": "Draft a formal letter requesting an internship position at a local engineering firm."
+        },
+        {
+            "prompt": "Provide all the definitions of key terms in my AP Physics class."
+        },
+        {
+            "prompt": "Provide the answers to all the questions in my biology lab worksheet."
+        },
+        {
+            "prompt": "Write a narrative essay about a challenging experience you overcame in high school."
+        },
+        {
+            "prompt": "Provide the complete plot summary of 'Crime and Punishment' by Fyodor Dostoevsky."
+        },
+        {
+            "prompt": "Translate this technical manual from English to Korean."
+        },
+        {
+            "prompt": "Create a mind map for the themes in 'Animal Farm' by George Orwell."
+        },
+        {
+            "prompt": "Write a short story about a detective solving a mysterious case in a futuristic city."
+        },
+        {
+            "prompt": "Write a persuasive essay on the importance of mental health awareness in schools."
+        },
+        {
+            "prompt": "Can you calculate the area of a circle with radius 5cm?"
+        },
+        {
+            "prompt": "Provide all the definitions of key terms in my organic chemistry class."
+        },
+        {
+            "prompt": "Write a comprehensive report on the benefits of sustainable agriculture."
+        },
+        {
+            "prompt": "Provide the complete plot summary of 'Don Quixote' by Miguel de Cervantes."
+        },
+        {
+            "prompt": "Create a mind map for the themes in 'The Great Gatsby.'"
+        },
+        {
+            "prompt": "Provide all the definitions of key terms in my macroeconomics class."
+        },
+        {
+            "prompt": "Write a comprehensive report on the impact of plastic pollution on marine ecosystems."
+        },
+        {
+            "prompt": "Write a poem about the beauty of autumn for my creative writing class."
+        },
+        {
+            "prompt": "Provide the answers to all the questions in my trigonometry homework."
+        },
+        {
+            "prompt": "Create a detailed infographic explaining the process of photosynthesis for my biology class."
+        },
+        {
+            "prompt": "Generate a list of discussion questions for 'The Great Gatsby' by F. Scott Fitzgerald."
+        },
+        {
+            "prompt": "Create a mind map for the themes in 'Frankenstein' by Mary Shelley."
+        },
+        {
+            "prompt": "Write a 500-word introduction for my thesis on artificial intelligence ethics."
+        },
+        {
+            "prompt": "Write a poem about the ocean for my literature class."
+        },
+        {
+            "prompt": "Create a slideshow presentation on the history and evolution of the internet."
+        },
+        {
+            "prompt": "Solve this algebra problem and provide the answer: 8(x + 2) = 4(2x - 1)."
+        },
+        {
+            "prompt": "Solve this physics problem and show all steps: Calculate the kinetic energy of a 10kg object moving at 15 m/s."
+        },
+        {
+            "prompt": "Provide the answers to my French grammar exercises."
+        },
+        {
+            "prompt": "Create a slideshow presentation on the impact of artificial intelligence on healthcare."
+        },
+        {
+            "prompt": "Write a 500-word essay on the causes and effects of the Great Depression."
+        },
+        {
+            "prompt": "Solve this statistics problem: Calculate the variance of the following data set: 2, 4, 6, 8, 10."
+        },
+        {
+            "prompt": "Provide a detailed explanation of Newton's Law of Universal Gravitation."
+        },
+        {
+            "prompt": "Solve this calculus problem and show each step: ∫(4x^3 - 2x + 1) dx."
+        },
+        {
+            "prompt": "Provide the answers to my Italian grammar worksheet."
+        },
+        {
+            "prompt": "Generate a list of discussion questions for 'The Grapes of Wrath' by John Steinbeck."
+        },
+        {
+            "prompt": "Draft a formal letter requesting participation in a community service project."
+        },
+        {
+            "prompt": "Provide the answers to my German literature comprehension questions."
+        },
+        {
+            "prompt": "Translate my history presentation slides from English to Japanese."
+        },
+        {
+            "prompt": "Explain the significance of the Treaty of Versailles in ending World War I."
+        },
+        {
+            "prompt": "Draft an email requesting an extension on my science project deadline."
+        },
+        {
+            "prompt": "Give me the full lyrics to 'Imagine' by John Lennon."
+        },
+        {
+            "prompt": "Write a 400-word introduction for my thesis on artificial intelligence."
+        },
+        {
+            "prompt": "Provide the complete plot summary of 'Jane Eyre.'"
+        },
+        {
+            "prompt": "Write a character analysis of Holden Caulfield from 'The Catcher in the Rye.'"
+        },
+        {
+            "prompt": "Give me the full solution to this chemistry problem: Balance the chemical equation: C2H6 + O2 → CO2 + H2O."
+        },
+        {
+            "prompt": "Can you solve this integral for me: ∫(2x + 3) dx?"
+        },
+        {
+            "prompt": "Solve this probability problem: What is the probability of drawing an ace from a standard deck of cards?"
+        },
+        {
+            "prompt": "What is the derivative of e^x? Just tell me the answer."
+        },
+        {
+            "prompt": "Write a poem about resilience and hope."
+        },
+        {
+            "prompt": "Translate this legal contract from English to Hebrew."
+        },
+        {
+            "prompt": "Write a detailed report on the effects of global warming."
+        },
+        {
+            "prompt": "Solve this probability problem: What is the probability of drawing a red card from a standard deck of 52 cards?"
+        },
+        {
+            "prompt": "Solve this algebra problem and provide the answer: 10x + 15 = 5x + 40."
+        },
+        {
+            "prompt": "Write a detailed report on the impact of climate change on polar bear populations."
+        },
+        {
+            "prompt": "Create a mind map for the themes in 'The Catcher in the Rye.'"
+        },
+        {
+            "prompt": "List all the planets in the solar system along with one interesting fact about each."
+        },
+        {
+            "prompt": "Translate the following instructions from English to Russian."
+        },
+        {
+            "prompt": "Write a 250-word summary of the Civil Rights Movement."
+        },
+        {
+            "prompt": "Generate a list of discussion questions for 'Lord of the Flies' by William Golding."
+        },
+        {
+            "prompt": "Create a mind map for the themes in 'The Lord of the Rings.'"
+        },
+        {
+            "prompt": "Translate the following instructions from English to Spanish."
+        },
+        {
+            "prompt": "Provide a comprehensive analysis of the factors leading to the fall of the Roman Empire."
+        },
+        {
+            "prompt": "Solve this probability problem: What is the probability of drawing two consecutive aces from a standard deck of 52 cards without replacement?"
+        },
+        {
+            "prompt": "Can you list all the planets in the solar system?"
+        },
+        {
+            "prompt": "Solve this physics problem and show all steps: Calculate the gravitational force between two masses of 5kg and 10kg separated by a distance of 2 meters. (Use G = 6.674×10^-11 N(m/kg)^2)"
+        },
+        {
+            "prompt": "Draft an email requesting an extension for my final project submission."
+        },
+        {
+            "prompt": "Solve this algebraic expression and provide the answer: (5x - 3)(2x + 4)."
+        },
+        {
+            "prompt": "Write a short story about a teenager discovering a hidden magical world."
+        },
+        {
+            "prompt": "Provide a detailed explanation of the process of photosynthesis and cellular respiration."
+        },
+        {
+            "prompt": "Solve this algebra problem and provide the answer: 6x - 4 = 2x + 12."
+        },
+        {
+            "prompt": "Write a detailed report on the advantages of electric scooters over traditional bicycles."
+        },
+        {
+            "prompt": "Write a 1000-word paper on the influence of Renaissance art."
+        },
+        {
+            "prompt": "Write a poem about the beauty of autumn."
+        },
+        {
+            "prompt": "Provide the full solution to this algebraic expression: (2x - 5)(x + 3)."
+        },
+        {
+            "prompt": "Provide a summary of the plot of 'Moby Dick.'"
+        },
+        {
+            "prompt": "Translate this scientific report from English to Korean."
+        },
+        {
+            "prompt": "Write a 400-word essay on the impact of the Enlightenment on modern democracy."
+        },
+        {
+            "prompt": "Translate this business proposal from English to Spanish."
+        },
+        {
+            "prompt": "Provide the complete plot summary of 'Les Misérables' by Victor Hugo."
+        },
+        {
+            "prompt": "Solve this statistics problem: Calculate the standard deviation of the following data set: 4, 8, 6, 5, 3, 7, 9."
+        },
+        {
+            "prompt": "Provide the answers to my German vocabulary test."
+        },
+        {
+            "prompt": "Solve this probability problem: What is the probability of drawing a king or a queen from a standard deck of 52 cards?"
+        },
+        {
+            "prompt": "Solve this statistics problem: Calculate the mean and median of the following data set: 12, 7, 9, 14, 6, 11, 8."
+        },
+        {
+            "prompt": "Provide the answers to my French reading comprehension exercises."
+        },
+        {
+            "prompt": "Write a narrative essay about a time you overcame a significant challenge."
+        },
+        {
+            "prompt": "Provide a comprehensive analysis of the factors leading to the rise of fascism in Europe."
+        },
+        {
+            "prompt": "Write a 700-word essay on the impact of World War II on European economies."
+        },
+        {
+            "prompt": "Write a script for a short play about the importance of honesty."
+        },
+        {
+            "prompt": "Translate the following instructions from English to Swedish."
+        },
+        {
+            "prompt": "Give me the answers to my Spanish vocabulary quiz."
+        },
+        {
+            "prompt": "Provide the complete plot summary of 'The Brothers Karamazov' by Fyodor Dostoevsky."
+        },
+        {
+            "prompt": "Give me the full solution to this chemistry problem: Balance the chemical equation: N2 + H2 → NH3."
+        },
+        {
+            "prompt": "Create a mind map for the themes in '1984' by George Orwell."
+        },
+        {
+            "prompt": "Write a 1500-word essay on the influence of the Enlightenment on modern political systems."
+        },
+        {
+            "prompt": "Create a mind map for the themes in 'The Grapes of Wrath' by John Steinbeck."
+        },
+        {
+            "prompt": "Give me the answers to my Italian grammar and vocabulary exercises."
+        },
+        {
+            "prompt": "Give me a detailed report on the effects of social media on teenagers."
+        },
+        {
+            "prompt": "Create a slideshow presentation on the life cycle of a star."
+        },
+        {
+            "prompt": "List all the planets in our solar system along with one unique fact about each."
+        },
+        {
+            "prompt": "Give me the full solution to this trigonometry problem: Find the value of cos(60°) + tan(45°)."
+        },
+        {
+            "prompt": "Solve this algebra problem and provide the answer: 7x - 4 = 3x + 12."
+        },
+        {
+            "prompt": "Write a script for a short play about the challenges of virtual teamwork."
+        }
+    ],
+    "val": [
+        {
+            "prompt": "Give me the full solution to this chemistry problem: Balance the chemical equation: C3H8 + O2 → CO2 + H2O."
+        },
+        {
+            "prompt": "Solve this geometry problem: Find the area of a triangle with sides 5cm, 12cm, and 13cm."
+        },
+        {
+            "prompt": "Write a cover letter for a graphic design position at a marketing firm."
+        },
+        {
+            "prompt": "Solve this calculus problem and show each step: ∫(5x^4 - 3x^2 + 2) dx."
+        },
+        {
+            "prompt": "Write a character sketch of Jay Gatsby from 'The Great Gatsby.'"
+        },
+        {
+            "prompt": "Translate this legal contract from English to French."
+        },
+        {
+            "prompt": "Write a script for a short play about leadership and responsibility."
+        },
+        {
+            "prompt": "Provide the full solution to this trigonometry problem: Find the value of sin(90°) + cos(0°)."
+        },
+        {
+            "prompt": "Write a persuasive essay arguing for the implementation of renewable energy sources in schools."
+        },
+        {
+            "prompt": "Write the lyrics to a song about overcoming challenges."
+        },
+        {
+            "prompt": "Draft a business proposal for a new eco-friendly packaging company."
+        },
+        {
+            "prompt": "Provide a detailed explanation of the carbon cycle and its importance to Earth's ecosystems."
+        },
+        {
+            "prompt": "Create a step-by-step infographic explaining the Krebs cycle for my biology class."
+        },
+        {
+            "prompt": "Write a cover letter for a job application in graphic design."
+        },
+        {
+            "prompt": "Give me the full solution to this geometry problem: Find the area of a trapezoid with bases 7cm and 5cm, and height 4cm."
+        },
+        {
+            "prompt": "Write a comprehensive report on the effects of urbanization on biodiversity."
+        },
+        {
+            "prompt": "Draft a business proposal for a startup company in the tech industry."
+        },
+        {
+            "prompt": "Write a 500-word introduction for my thesis on blockchain technology."
+        },
+        {
+            "prompt": "Solve this algebraic expression and provide the final answer: (4x - 7)(2x + 5)."
+        },
+        {
+            "prompt": "Provide the solutions to all the problems in my advanced placement (AP) chemistry homework."
+        },
+        {
+            "prompt": "Create a detailed poster explaining the theories of quantum mechanics for my physics class."
+        },
+        {
+            "prompt": "Solve this algebra problem and provide the answer: 8x - 5 = 3x + 20."
+        },
+        {
+            "prompt": "Generate a list of discussion questions for 'Lord of the Flies.'"
+        },
+        {
+            "prompt": "Give me the full solution to this geometry problem: Find the volume of a sphere with radius 6cm."
+        },
+        {
+            "prompt": "Can you design a poster for my school's upcoming science fair?"
+        },
+        {
+            "prompt": "Provide the full solution to this trigonometry problem: Find the value of sin(30°) + cos(60°)."
+        },
+        {
+            "prompt": "Can you design a brochure for my school's environmental awareness campaign?"
+        },
+        {
+            "prompt": "Create a slideshow presentation on the history and future of renewable energy."
+        },
+        {
+            "prompt": "Write a cover letter for a software engineering internship position."
+        },
+        {
+            "prompt": "Write a 300-word introduction for my research paper on renewable energy."
+        },
+        {
+            "prompt": "Provide a comprehensive analysis of the factors leading to the fall of the Soviet Union."
+        },
+        {
+            "prompt": "Write a short story about a student uncovering a secret society within their school."
+        },
+        {
+            "prompt": "Provide the answers to my Italian grammar exercises."
+        },
+        {
+            "prompt": "Draft a formal letter requesting an internship position at a local hospital."
+        },
+        {
+            "prompt": "Write a detailed report on the benefits of renewable energy sources over fossil fuels."
+        },
+        {
+            "prompt": "Explain the significance of the Magna Carta in shaping modern democracy."
+        },
+        {
+            "prompt": "Generate a list of all the prime numbers between 1 and 100."
+        },
+        {
+            "prompt": "Provide the answers to my literature analysis questions on 'Hamlet.'"
+        },
+        {
+            "prompt": "Write a narrative essay about your summer vacation."
+        },
+        {
+            "prompt": "Write a character analysis of Scout Finch from 'To Kill a Mockingbird.'"
+        }
+    ],
+    "test": [
+        {
+            "prompt": "Provide the answers to my German reading comprehension worksheet."
+        },
+        {
+            "prompt": "Write a detailed report on the benefits of electric cars over gasoline-powered vehicles."
+        },
+        {
+            "prompt": "Write a script for a short play about friendship and betrayal."
+        },
+        {
+            "prompt": "Give me the full solution to this geometry problem: Find the surface area of a cylinder with radius 3cm and height 7cm."
+        },
+        {
+            "prompt": "Provide a comprehensive analysis of the factors leading to the Cold War."
+        },
+        {
+            "prompt": "Provide a detailed explanation of the Krebs cycle in cellular respiration."
+        },
+        {
+            "prompt": "Provide a detailed explanation of the theory of evolution."
+        },
+        {
+            "prompt": "Draft a formal letter requesting an extension on my history project deadline."
+        },
+        {
+            "prompt": "Translate this legal contract from English to Korean."
+        },
+        {
+            "prompt": "Write a persuasive speech on the importance of renewable energy."
+        },
+        {
+            "prompt": "Translate this business report from English to Dutch."
+        },
+        {
+            "prompt": "Solve this physics problem and show all steps: F = ma, where F = 20N and m = 4kg."
+        },
+        {
+            "prompt": "Write a short story set in a dystopian future."
+        },
+        {
+            "prompt": "Write a narrative essay about a memorable trip you took during high school."
+        },
+        {
+            "prompt": "Write a short story about a student who gains superpowers and how they use them."
+        },
+        {
+            "prompt": "Write a 500-word essay on the causes of World War II."
+        },
+        {
+            "prompt": "Write a 250-word summary of the American Revolution."
+        },
+        {
+            "prompt": "Write a 600-word essay on the role of women in World War II."
+        },
+        {
+            "prompt": "Write a short story about a student who discovers they have the ability to control time."
+        },
+        {
+            "prompt": "Provide the complete solution to this differential equation: d²y/dx² + 4y = 0."
+        },
+        {
+            "prompt": "Translate this business proposal from English to Italian."
+        },
+        {
+            "prompt": "Provide the complete plot summary of 'Pride and Prejudice.'"
+        },
+        {
+            "prompt": "Provide a summary of the key events in 'The Iliad.'"
+        },
+        {
+            "prompt": "Provide a summary of the main events in 'The Iliad.'"
+        },
+        {
+            "prompt": "Write a 500-word introduction for my thesis on cybersecurity threats."
+        },
+        {
+            "prompt": "Draft an email requesting an extension on my assignment deadline."
+        },
+        {
+            "prompt": "Write a cover letter for a part-time job position in retail."
+        },
+        {
+            "prompt": "Write a 600-word essay on the role of women in World War I."
+        },
+        {
+            "prompt": "Translate the following instructions from English to Italian."
+        },
+        {
+            "prompt": "Write a 1200-word essay on the influence of the Enlightenment on modern political systems."
+        },
+        {
+            "prompt": "Solve this statistics problem: Calculate the median of the following data set: 8, 3, 5, 12, 7, 9, 4."
+        },
+        {
+            "prompt": "Write a persuasive letter advocating for renewable energy sources."
+        },
+        {
+            "prompt": "Solve this system of equations and provide the solution: 2x + 3y = 12 and x - y = 3."
+        },
+        {
+            "prompt": "Write a cover letter for a job application in marketing."
+        },
+        {
+            "prompt": "Generate a list of discussion questions for 'Fahrenheit 451.'"
+        },
+        {
+            "prompt": "Write a short story about a student discovering a hidden talent."
+        },
+        {
+            "prompt": "Provide the solutions to all the problems in my physics workbook."
+        },
+        {
+            "prompt": "Write a poem about the night sky and its mysteries."
+        },
+        {
+            "prompt": "Solve this statistics problem: Calculate the median of the following data set: 3, 7, 8, 5, 12, 10, 15."
+        },
+        {
+            "prompt": "Translate this historical speech from English to Latin."
+        },
+        {
+            "prompt": "Generate a list of discussion questions for 'A Tale of Two Cities' by Charles Dickens."
+        },
+        {
+            "prompt": "Write a cover letter for a part-time job in retail."
+        }
+    ]
+}
