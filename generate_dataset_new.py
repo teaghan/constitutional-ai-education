@@ -78,8 +78,20 @@ async def generate_text(prompt, semaphore):
             temperature=config.temperature,
             do_sample=True,
         )
-        response = tokenizer.decode(outputs[0], skip_special_tokens=True)
-        return response.strip()
+        # Extract the response by removing the input tokens from the output
+        prompt_length = inputs['input_ids'].shape[1]  # Length of the input prompt
+        outputs = outputs[0][prompt_length:]  # Remove input tokens from the output
+        num_tokens = len(outputs)  # Count the number of tokens in the response
+
+        # Decode the response into a readable string
+        response = tokenizer.decode(outputs, skip_special_tokens=True)
+
+        # Clean up the response by removing unnecessary leading characters
+        for s in ['\n', ' ', 'A: ', 'Answer: ', '[/INST] ']:
+            response = response.lstrip(s)
+
+        # Return the cleaned response
+        return response
 
 
 async def process_text(split, i, task, semaphore):
