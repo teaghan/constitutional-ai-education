@@ -49,6 +49,8 @@ with open(config.constitution_path) as f:
     data = json.load(f)
     constitutions = data["constitutions"]
     system_chat = [item for sublist in data["system_chat"] for item in sublist]
+# Select subset for our purposes
+system_chat = system_chat[:16]
 
 # Load the dataset
 with open(config.dataset_path, "r") as f:
@@ -61,6 +63,10 @@ async def generate_text(prompt, semaphore):
     """Generates text using the model asynchronously."""
     async with semaphore:
         inputs = tokenizer(prompt, return_tensors="pt", padding=False)
+        # Move input tensors to the same device as the model
+        device = model.device
+        inputs = {key: tensor.to(device) for key, tensor in inputs.items()}
+            
         outputs = model.generate(
             inputs["input_ids"],
             attention_mask=inputs["attention_mask"],
