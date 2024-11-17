@@ -33,6 +33,7 @@ if torch.cuda.is_available():
 else:
     quantization_config = None
 
+print('Loading models...')
 model_name = "mistralai/Mistral-7B-Instruct-v0.1"
 tokenizer = AutoTokenizer.from_pretrained(model_name, token=hf_token)
 tokenizer.add_special_tokens({"sep_token": "", "cls_token": "", "mask_token": "", "pad_token": "[PAD]"})
@@ -43,6 +44,8 @@ model = AutoModelForCausalLM.from_pretrained(
     quantization_config=quantization_config,
     token=hf_token
 )
+
+print('Loading data...')
 
 # Load constitutional principles
 with open(config.constitution_path) as f:
@@ -119,6 +122,8 @@ async def main():
     for split, data in all_ds.items():
         df = pd.DataFrame(data)
         df.to_csv(f"{split}_dataset.csv", index=False)
+
+print('Generating datasets...')
 
 start_time = time.time()
 asyncio.run(main())
