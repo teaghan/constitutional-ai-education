@@ -29,7 +29,7 @@ config = Config()
 
 # Load the tokenizer and model
 if torch.cuda.is_available():
-    quantization_config = BitsAndBytesConfig(load_in_8bit=True)
+    quantization_config = None#BitsAndBytesConfig(load_in_8bit=True)
 else:
     quantization_config = None
 
