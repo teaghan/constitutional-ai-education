@@ -17,7 +17,7 @@ hf_token = load_token(file_path='hf_token.txt')
 
 @dataclass
 class Config:
-    max_samples: int = 128
+    max_samples: int = 5000
     max_new_tokens: int = 800
     temperature: float = 1.0
     constitution_path: str = "data/constitution_education.json"
@@ -90,7 +90,6 @@ async def generate_text(prompt, semaphore):
         #for s in ['\n', ' ', 'A: ', 'Answer: ', '[/INST] ']:
         #    response = response.lstrip(s)
         response = response.split('[/INST] ')[-1]
-        print(response)
 
         # Return the cleaned response
         return response
