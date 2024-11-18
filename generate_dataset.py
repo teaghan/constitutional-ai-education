@@ -134,7 +134,7 @@ async def main():
     # Convert to dataset and save
     for split, data in all_ds.items():
         df = pd.DataFrame(data)
-        df.to_csv(f"{split}_dataset.csv", index=False)
+        df.to_csv(f"data/{split}_dataset.csv", index=False)
 
 print('Generating datasets...')
 
