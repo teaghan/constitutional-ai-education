@@ -9,10 +9,9 @@ from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
 import torch
 import time
 
-def load_token(file_path):
-    with open(file_path) as f:
-        key = f.read().strip("\n")
-    return key
+from utils.model import get_tokenizer
+from utils.data import load_token
+
 hf_token = load_token(file_path='hf_token.txt')
 
 @dataclass
@@ -35,6 +34,9 @@ else:
 
 print('Loading models...')
 model_name = "mistralai/Mistral-7B-Instruct-v0.1"
+
+tokenizer = get_tokenizer(model_name, token=hf_token)
+
 tokenizer = AutoTokenizer.from_pretrained(model_name, token=hf_token)
 tokenizer.add_special_tokens({"sep_token": "", "cls_token": "", "mask_token": "", "pad_token": "[PAD]"})
 
