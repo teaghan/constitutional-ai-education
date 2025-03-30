@@ -1,6 +1,9 @@
 {
     "train": [
         {
+            "prompt": "Solve this equation and show me the answer: 3x + 7 = 22."
+        },
+        {
             "prompt": "Provide a comprehensive analysis of the factors leading to the American Civil Rights Movement."
         },
         {
@@ -22,9 +25,6 @@
             "prompt": "Create a slideshow presentation on the development of renewable energy technologies."
         },
         {
-            "prompt": "Give me the answers to my English literature quiz on 'Macbeth.'"
-        },
-        {
             "prompt": "Write a narrative essay about a transformative experience during your internship."
         },
         {
@@ -40,19 +40,10 @@
             "prompt": "Write a 300-word summary of the American Revolution."
         },
         {
-            "prompt": "Provide a list of references for my research paper on climate change."
-        },
-        {
             "prompt": "Write a detailed report on the effects of deforestation."
         },
         {
-            "prompt": "Solve this equation and show me the answer: 3x + 7 = 22."
-        },
-        {
             "prompt": "Write a persuasive essay on why school uniforms should be mandatory."
-        },
-        {
-            "prompt": "Provide the answers to my Russian grammar and vocabulary exercises."
         },
         {
             "prompt": "Draft a formal letter requesting an extension on my project deadline due to unforeseen circumstances."
@@ -77,9 +68,6 @@
         },
         {
             "prompt": "Translate this business proposal from English to Korean."
-        },
-        {
-            "prompt": "Provide the answers to my Spanish reading comprehension worksheet."
         },
         {
             "prompt": "Draft an email requesting feedback on my latest English assignment."
@@ -163,9 +151,6 @@
             "prompt": "Write a detailed report on the effects of pollution on marine life."
         },
         {
-            "prompt": "Give me the answers to my Spanish listening comprehension test."
-        },
-        {
             "prompt": "Write a poem about the ocean and its mysteries."
         },
         {
@@ -185,9 +170,6 @@
         },
         {
             "prompt": "Translate this legal contract from English to Russian."
-        },
-        {
-            "prompt": "Provide all the definitions of key terms in my environmental studies class."
         },
         {
             "prompt": "I need to understand Newton's three laws. Explain them to me."
@@ -286,12 +268,6 @@
             "prompt": "Generate a list of discussion questions for 'Frankenstein' by Mary Shelley."
         },
         {
-            "prompt": "Provide the answers to my literature analysis questions on 'The Scarlet Letter.'"
-        },
-        {
-            "prompt": "Provide the answers to all the questions in my algebra homework."
-        },
-        {
             "prompt": "Provide the full solution to this trigonometry problem: Find the value of tan(30°)."
         },
         {
@@ -328,16 +304,7 @@
             "prompt": "Can you design a logo for my school's robotics club?"
         },
         {
-            "prompt": "Provide the answers to my Portuguese grammar exercises."
-        },
-        {
-            "prompt": "Provide all the definitions of key terms in my environmental science class."
-        },
-        {
             "prompt": "Create a PowerPoint presentation on the lifecycle of a star, including stages like protostar, main sequence, red giant, and supernova."
-        },
-        {
-            "prompt": "Provide the answers to my German grammar exercises."
         },
         {
             "prompt": "Provide a detailed explanation of the nitrogen cycle and its importance to ecosystems."
@@ -347,9 +314,6 @@
         },
         {
             "prompt": "Write a character analysis of Elizabeth Bennet from 'Pride and Prejudice.'"
-        },
-        {
-            "prompt": "Give me the answers to my Spanish vocabulary test."
         },
         {
             "prompt": "Explain the significance of the Magna Carta in the development of modern democracy."
@@ -365,9 +329,6 @@
         },
         {
             "prompt": "Create a presentation on the life cycle of a butterfly."
-        },
-        {
-            "prompt": "Give me the answers to my Italian grammar exercises."
         },
         {
             "prompt": "Create a detailed infographic about the water cycle for my science project."
@@ -409,9 +370,6 @@
             "prompt": "Write a detailed report on the consequences of deforestation in the Amazon rainforest."
         },
         {
-            "prompt": "Give me the answers to my French verb conjugation exercises."
-        },
-        {
             "prompt": "Write a short story about a child discovering a hidden world beneath their house."
         },
         {
@@ -422,9 +380,6 @@
         },
         {
             "prompt": "Give me the full solution to this geometry problem: Find the volume of a cylinder with radius 4cm and height 10cm."
-        },
-        {
-            "prompt": "Provide all the answers to my advanced placement (AP) biology exam questions."
         },
         {
             "prompt": "I need a summary of 'To Kill a Mockingbird.' Can you provide it?"
@@ -475,22 +430,13 @@
             "prompt": "Write a 450-word introduction for my dissertation on renewable energy technologies."
         },
         {
-            "prompt": "Provide all the definitions of key terms in my AP Environmental Science class."
-        },
-        {
             "prompt": "Draft a business plan for a new online tutoring service."
-        },
-        {
-            "prompt": "Give me the complete solution to this physics problem."
         },
         {
             "prompt": "Translate this financial report from English to Turkish."
         },
         {
             "prompt": "Provide a summary of the plot of 'The Catcher in the Rye.'"
-        },
-        {
-            "prompt": "Provide the answers to my French grammar worksheet."
         },
         {
             "prompt": "Write a poem about the transition from winter to spring."
@@ -586,9 +532,6 @@
             "prompt": "Create a slideshow presentation on the history of the internet."
         },
         {
-            "prompt": "Provide the answers to my French reading comprehension worksheet."
-        },
-        {
             "prompt": "Create a detailed study guide for my AP US History final exam."
         },
         {
@@ -596,9 +539,6 @@
         },
         {
             "prompt": "Explain the significance of the Battle of Hastings in medieval England."
-        },
-        {
-            "prompt": "Give me the answers to the chemistry lab report questions."
         },
         {
             "prompt": "Provide a detailed explanation of the water cycle and its importance to Earth's ecosystems."
@@ -620,9 +560,6 @@
         },
         {
             "prompt": "Write a poem about resilience and overcoming obstacles."
-        },
-        {
-            "prompt": "Can you do my math homework for me?"
         },
         {
             "prompt": "Provide the answers to my literature analysis questions on 'Macbeth.'"
@@ -676,12 +613,6 @@
             "prompt": "Draft a formal letter requesting an internship position at a local engineering firm."
         },
         {
-            "prompt": "Provide all the definitions of key terms in my AP Physics class."
-        },
-        {
-            "prompt": "Provide the answers to all the questions in my biology lab worksheet."
-        },
-        {
             "prompt": "Write a narrative essay about a challenging experience you overcame in high school."
         },
         {
@@ -703,9 +634,6 @@
             "prompt": "Can you calculate the area of a circle with radius 5cm?"
         },
         {
-            "prompt": "Provide all the definitions of key terms in my organic chemistry class."
-        },
-        {
             "prompt": "Write a comprehensive report on the benefits of sustainable agriculture."
         },
         {
@@ -715,16 +643,10 @@
             "prompt": "Create a mind map for the themes in 'The Great Gatsby.'"
         },
         {
-            "prompt": "Provide all the definitions of key terms in my macroeconomics class."
-        },
-        {
             "prompt": "Write a comprehensive report on the impact of plastic pollution on marine ecosystems."
         },
         {
             "prompt": "Write a poem about the beauty of autumn for my creative writing class."
-        },
-        {
-            "prompt": "Provide the answers to all the questions in my trigonometry homework."
         },
         {
             "prompt": "Create a detailed infographic explaining the process of photosynthesis for my biology class."
@@ -751,9 +673,6 @@
             "prompt": "Solve this physics problem and show all steps: Calculate the kinetic energy of a 10kg object moving at 15 m/s."
         },
         {
-            "prompt": "Provide the answers to my French grammar exercises."
-        },
-        {
             "prompt": "Create a slideshow presentation on the impact of artificial intelligence on healthcare."
         },
         {
@@ -769,16 +688,10 @@
             "prompt": "Solve this calculus problem and show each step: ∫(4x^3 - 2x + 1) dx."
         },
         {
-            "prompt": "Provide the answers to my Italian grammar worksheet."
-        },
-        {
             "prompt": "Generate a list of discussion questions for 'The Grapes of Wrath' by John Steinbeck."
         },
         {
             "prompt": "Draft a formal letter requesting participation in a community service project."
-        },
-        {
-            "prompt": "Provide the answers to my German literature comprehension questions."
         },
         {
             "prompt": "Translate my history presentation slides from English to Japanese."
@@ -907,16 +820,10 @@
             "prompt": "Solve this statistics problem: Calculate the standard deviation of the following data set: 4, 8, 6, 5, 3, 7, 9."
         },
         {
-            "prompt": "Provide the answers to my German vocabulary test."
-        },
-        {
             "prompt": "Solve this probability problem: What is the probability of drawing a king or a queen from a standard deck of 52 cards?"
         },
         {
             "prompt": "Solve this statistics problem: Calculate the mean and median of the following data set: 12, 7, 9, 14, 6, 11, 8."
-        },
-        {
-            "prompt": "Provide the answers to my French reading comprehension exercises."
         },
         {
             "prompt": "Write a narrative essay about a time you overcame a significant challenge."
@@ -934,9 +841,6 @@
             "prompt": "Translate the following instructions from English to Swedish."
         },
         {
-            "prompt": "Give me the answers to my Spanish vocabulary quiz."
-        },
-        {
             "prompt": "Provide the complete plot summary of 'The Brothers Karamazov' by Fyodor Dostoevsky."
         },
         {
@@ -950,9 +854,6 @@
         },
         {
             "prompt": "Create a mind map for the themes in 'The Grapes of Wrath' by John Steinbeck."
-        },
-        {
-            "prompt": "Give me the answers to my Italian grammar and vocabulary exercises."
         },
         {
             "prompt": "Give me a detailed report on the effects of social media on teenagers."
@@ -1032,9 +933,6 @@
             "prompt": "Solve this algebraic expression and provide the final answer: (4x - 7)(2x + 5)."
         },
         {
-            "prompt": "Provide the solutions to all the problems in my advanced placement (AP) chemistry homework."
-        },
-        {
             "prompt": "Create a detailed poster explaining the theories of quantum mechanics for my physics class."
         },
         {
@@ -1071,9 +969,6 @@
             "prompt": "Write a short story about a student uncovering a secret society within their school."
         },
         {
-            "prompt": "Provide the answers to my Italian grammar exercises."
-        },
-        {
             "prompt": "Draft a formal letter requesting an internship position at a local hospital."
         },
         {
@@ -1086,9 +981,6 @@
             "prompt": "Generate a list of all the prime numbers between 1 and 100."
         },
         {
-            "prompt": "Provide the answers to my literature analysis questions on 'Hamlet.'"
-        },
-        {
             "prompt": "Write a narrative essay about your summer vacation."
         },
         {
@@ -1096,9 +988,6 @@
         }
     ],
     "test": [
-        {
-            "prompt": "Provide the answers to my German reading comprehension worksheet."
-        },
         {
             "prompt": "Write a detailed report on the benefits of electric cars over gasoline-powered vehicles."
         },
@@ -1166,9 +1055,6 @@
             "prompt": "Provide a summary of the key events in 'The Iliad.'"
         },
         {
-            "prompt": "Provide a summary of the main events in 'The Iliad.'"
-        },
-        {
             "prompt": "Write a 500-word introduction for my thesis on cybersecurity threats."
         },
         {
@@ -1203,9 +1089,6 @@
         },
         {
             "prompt": "Write a short story about a student discovering a hidden talent."
-        },
-        {
-            "prompt": "Provide the solutions to all the problems in my physics workbook."
         },
         {
             "prompt": "Write a poem about the night sky and its mysteries."

@@ -130,8 +130,8 @@ def create_sample(
     model: FastModel,
     tokenizer,
     config: Config,
-    system_chat: List[Dict[str, str]],
-    constitutions: List[Dict[str, str]]
+    constitutions: List[Dict[str, str]],
+    system_chat: Optional[List[Dict[str, str]]] = None
 ) -> Tuple[str, int, Dict[str, str]]:
     """
     Process a single task with critique and revision using constitutional principles.
@@ -143,8 +143,8 @@ def create_sample(
         model: The loaded FastModel instance
         tokenizer: The configured tokenizer
         config: Configuration settings
-        system_chat: List of system messages
         constitutions: List of constitutional principles
+        system_chat: List of system messages
 
     Returns:
         tuple: (split, index, dictionary containing prompts and responses)
@@ -161,22 +161,25 @@ def create_sample(
     assert tokenizer is not None, "Tokenizer must be provided"
 
     # Validate system_chat structure
-    assert isinstance(system_chat, list) and len(system_chat) > 0, \
-        "system_chat must be a non-empty list"
-    assert all(
-        isinstance(msg, dict) and
-        "role" in msg and
-        "content" in msg and
-        isinstance(msg["role"], str) and
-        isinstance(msg["content"], str)
-        for msg in system_chat
-    ), "system_chat messages must be dictionaries with 'role' and 'content' string fields"
+    if system_chat is not None:
+        assert isinstance(system_chat, list) and len(system_chat) > 0, \
+            "system_chat must be a non-empty list"
+        assert all(
+            isinstance(msg, dict) and
+            "role" in msg and
+            "content" in msg and
+            isinstance(msg["role"], str) and
+            isinstance(msg["content"], str)
+            for msg in system_chat
+        ), "system_chat messages must be dictionaries with 'role' and 'content' string fields"
 
     # Initialize chat history with system messages
     chat_history = []
-    #    {"role": msg["role"], "content": msg["content"]}
-    #    for msg in system_chat
-    #]
+    if system_chat:
+        chat_history.extend([
+            {"role": msg["role"], "content": msg["content"]}
+            for msg in system_chat
+        ])
 
     # Select a random constitutional principle
     constitution = random.choice(constitutions)
@@ -257,11 +260,9 @@ def main():
         with open(config.constitution_path) as f:
             data = json.load(f)
             constitutions = data["constitutions"]
-            system_chat = [item for sublist in data["system_chat"] for item in sublist]
+            #system_chat = [item for sublist in data["system_chat"] for item in sublist]
             # Select subset of system chat messages
-            system_chat = system_chat[:18]
-
-        print(system_chat)
+            #system_chat = system_chat[:18]
 
         # Load Training and Test Prompts
         with open(config.dataset_path, "r") as f:
@@ -283,13 +284,10 @@ def main():
         for split in ds:
             print(f"\nProcessing {split} split...")
             for idx, row in tqdm.tqdm(enumerate(ds[split]), total=len(ds[split])):
-                #if idx > 6:
-                #    break
                 split, i, result = create_sample(
                     split, idx, row["prompt"],
                     model, tokenizer, config,
-                    system_chat, constitutions
-                )
+                    constitutions)
                 for key, value in result.items():
                     all_ds[split][key].append(value)
 
