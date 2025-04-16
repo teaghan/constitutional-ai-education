@@ -1,4 +1,4 @@
-# Constitutional AI for Education: A Tutorial Framework
+# Constitutional AI for Education
 
 This repository provides a comprehensive tutorial of how to apply Constitutional AI to fine-tune an LLM specifically for student support using efficient fine-tuning techniques.
 
