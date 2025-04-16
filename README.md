@@ -1,14 +1,6 @@
 # Constitutional AI for Education: A Tutorial Framework
 
-This repository provides a comprehensive tutorial framework for developing AI teaching assistants using Constitutional AI principles. It demonstrates how to create, fine-tune, and improve language models specifically for educational support using modern techniques like QLoRA and DPO.
-
-## 🎯 Purpose
-
-This repository serves as a proof-of-concept and practical guide for:
-- Implementing Constitutional AI principles in educational contexts
-- Creating AI systems that promote effective learning practices
-- Demonstrating efficient fine-tuning techniques on consumer hardware
-- Building a pipeline for continuous model improvement
+This repository provides a comprehensive tutorial of how to apply Constitutional AI to fine-tune an LLM specifically for student support using efficient fine-tuning techniques.
 
 ## 🎓 Educational Principles
 
@@ -48,20 +40,37 @@ This constitution serves as the foundation for generating our training dataset a
 - Shows how to structure and prepare data for fine-tuning
 
 ### 2. `run_sft.ipynb`
-- Implements Supervised Fine-Tuning (SFT)
-- Uses QLoRA for memory-efficient training
-- Shows how to adapt a base model for educational tasks
-- Includes detailed explanations of configuration choices
+- Implements Supervised Fine-Tuning (SFT), the first training stage where:
+  - The model learns to generate improved educational responses
+  - Training uses the revised responses from our data generation process
+  - The model begins to align with our educational principles
+- Uses QLoRA for memory-efficient training, enabling:
+  - Training on consumer GPUs
+  - Preservation of base model knowledge while adding educational expertise
+- Shows how to adapt a base model for educational tasks through:
+  - Proper configuration of model parameters
+  - Management of training data
+  - Monitoring of learning progress
+- Serves as the foundation for further refinement in the DPO stage
 
 ### 3. `run_dpo.ipynb`
-- Implements Direct Preference Optimization (DPO)
-- Further refines the model using preference learning
-- Demonstrates how to maintain model stability during training
-- Includes memory-efficient training techniques
+- Implements Direct Preference Optimization (DPO), a second training stage that:
+  - Teaches the model to prefer better teaching responses over less effective ones
+  - Uses pairs of responses (better vs. worse) to learn from comparisons
+  - Reinforces the educational principles established in our constitution
+- Further refines the model by learning from preferences:
+  - Original responses serve as examples of what to avoid
+  - Revised responses show what good teaching looks like
+  - The model learns to distinguish effective from ineffective teaching approaches
+- Demonstrates how to maintain model stability through:
+  - Careful management of reference and training models
+  - Appropriate learning rate and training parameters
+  - Balance between improvement and consistency
+- Uses memory-efficient techniques to make training accessible on standard hardware
 
 ## 🛠 Technical Features
 
-- Uses the Llama 3.2 (1B) model as base
+- Uses the Llama 3.2 (1B) model as the pretrained model to be fine-tuned
 - Implements QLoRA for efficient fine-tuning
 - Employs 4-bit quantization for reduced memory usage
 - Includes optimizations for consumer GPU training
@@ -78,15 +87,12 @@ This constitution serves as the foundation for generating our training dataset a
 
 2. **Generate Training Data**
 - Run `generate_dataset.ipynb` to create your training dataset
-- Modify critique prompts to align with your educational goals
 
-3. **Initial Fine-tuning**
+3. **Initial Supervised Fine-tuning (SFT)**
 - Run `run_sft.ipynb` to perform supervised fine-tuning
-- Adjust hyperparameters based on your hardware constraints
 
-4. **Preference Learning**
+4. **Preference Learning using DPO**
 - Run `run_dpo.ipynb` to refine the model using preferences
-- Monitor training to ensure stable improvement
 
 ## 💻 Hardware Requirements
 
@@ -97,7 +103,6 @@ This constitution serves as the foundation for generating our training dataset a
 - This is a tutorial framework, not a production-ready system
 - Meant for educational and research purposes
 - Can be adapted for different educational contexts
-- Demonstrates best practices in model fine-tuning
 
 ## 💡 Customizing the Educational Constitution
 
@@ -105,7 +110,6 @@ The `constitution_education.json` file is designed to be easily modified for dif
 - Add new educational principles
 - Modify existing critique guidelines
 - Adjust revision strategies
-- Focus on specific pedagogical approaches
 
 Example constitution entry:
 ```json
