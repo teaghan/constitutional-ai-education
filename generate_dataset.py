@@ -199,9 +199,9 @@ def create_sample(
 
         prompt_suffix = ''
         if 'revision' in prompt_key:
-            prompt_suffix = '\n\n Note: Only include the revised response to the student\'s initial query - DO NOT INCLUDE ANY OTHER TEXT BEFORE OR AFTER THE REVISED RESPONSE. Write your response as if you are addressing the initial query.'
+            prompt_suffix = '\n\n **Note:** Only include the revised response to the student\'s initial query - DO NOT INCLUDE ANY OTHER TEXT BEFORE OR AFTER THE REVISED RESPONSE. Write your response as if you are addressing the initial query and do not include text like "Here\'s the revised response: ...".'
         elif 'critic' in prompt_key:
-            prompt_suffix = '\n\n Note: Only include the critique of the previous response - DO NOT INCLUDE ANY PROPOSED REVISIONS.'
+            prompt_suffix = '\n\n **Note:** Only include the critique of the previous response - DO NOT INCLUDE ANY PROPOSED REVISIONS.'
         else:
             prompt_suffix = ''
         # Add the current prompt to chat history
@@ -278,22 +278,21 @@ def main():
             assert all(isinstance(row, dict) and "prompt" in row for row in data), \
                 f"Each row in {split} must be a dictionary containing 'prompt'"
 
-        all_ds = defaultdict(lambda: defaultdict(list))
-        
-        # Process each split
+        # Process each split and save immediately
         for split in ds:
             print(f"\nProcessing {split} split...")
+            split_data = defaultdict(list)
+            
             for idx, row in tqdm.tqdm(enumerate(ds[split]), total=len(ds[split])):
                 split, i, result = create_sample(
                     split, idx, row["prompt"],
                     model, tokenizer, config,
                     constitutions)
                 for key, value in result.items():
-                    all_ds[split][key].append(value)
-
-        # Validate and save results to CSV files
-        for split, data in all_ds.items():
-            df = pd.DataFrame(data)
+                    split_data[key].append(value)
+            
+            # Convert to DataFrame and validate immediately after split completion
+            df = pd.DataFrame(split_data)
 
             # Validate DataFrame structure
             expected_columns = {
